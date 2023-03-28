@@ -2,736 +2,782 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Lionel Site responsive </title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Lionel Multi-Services - PortFolio</title>
 
-    <!-- =============== Bootstrap Core CSS =============== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
-    <!-- =============== fonts awesome =============== -->
-    <link rel="stylesheet" href="assets/font/css/font-awesome.min.css" type="text/css">
+	<!-- =============== Bootstrap Core CSS =============== -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+	<!-- =============== fonts awesome =============== -->
+	<link rel="stylesheet" href="assets/font/css/font-awesome.min.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <!-- =============== Plugin CSS =============== -->
-    <link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
-    <!-- =============== Custom CSS =============== -->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <!-- =============== Owl Carousel Assets =============== -->
-    <link href="assets/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="assets/owl-carousel/owl.theme.css" rel="stylesheet">
-	
-	 <link rel="stylesheet" href="assets/css/isotope-docs.css" media="screen">
-	  <link rel="stylesheet" href="assets/css/baguetteBox.css">
-	  	<!----------------------Web & CMS---------->
-		<link rel="stylesheet" href="web.html">
+	<!-- =============== Plugin CSS =============== -->
+	<link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
+	<!-- =============== Custom CSS =============== -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<!-- =============== Owl Carousel Assets =============== -->
+	<link href="assets/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="assets/owl-carousel/owl.theme.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/isotope-docs.css" media="screen">
+	<link rel="stylesheet" href="assets/css/baguetteBox.css">
+	<!----------------------Web & CMS---------->
+	<link rel="stylesheet" href="web.html">
 	<!-- <link rel="stylesheet" href="assets/css/web.css" type="text/css"> -->
 	<!----------------------mobile & e-commerce--------->
 	<link rel="stylesheet" href="mobile.html">
 	<!-- <link rel="stylesheet" href="assets/css/mobile.css" type="text/css"> -->
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<!---------CHATBOX WHATSAPP--------->
-    
-<script type="text/javascript">
-    var config = {
-      phone: " 24174129812",
-      call: "Me laisser un message",
-      position: "ww-right",
-      size: "ww-normal",
-      text: "Salut! Je suis intéressé par vos offres",
-      type: "ww-standard",
-      brand: "lionel-contact.ga",
-      subtitle: "Développeur des applications web / mobile",
-      welcome: "Salut!Quel type d'application aviez-vous besoin?"
-    };
-    var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
-    var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
 
-    s.onload = function () { tmWidgetInit(config) };
-    var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
-  </script>0
-  
-  <!---------SMTP.JS------------>
-  
-  <script src=https://smtpjs.com/v3/smtp.js></script>
-  <script>
-    function sendEmail() {
-      Email.send({
-        Host: "smtp.@gmail.com",
-        Username: "username",
-        Password: "password",
-        To: "officiel.lionel26@gmail.com",
-        From: document.getElementById("email").value,
-        Subject: "New Contact From Enquiry",
-        Body: "Nom et prénom" + document.getElementById("nom et prénom").value,
-        Body: "email" + document.getElementById("email").value,
-        Body: "phone" + document.getElementById("phone").value,
-        Body: "message" + document.getElementById("message").value,
-      }).then(
-        message => alert("Message envoyé avec succès")
-      );
-    }
-  </script>
+	<script type="text/javascript">
+		var config = {
+			phone: " 24174129812",
+			call: "Me laisser un message",
+			position: "ww-right",
+			size: "ww-normal",
+			text: "Salut! Je suis intéressé par vos offres",
+			type: "ww-standard",
+			brand: "lionel-contact.ga",
+			subtitle: "Développeur des applications web / mobile",
+			welcome: "Salut!Quel type d'application aviez-vous besoin?"
+		};
+		var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
+		var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
 
-		<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
- 
-<!-- include firebase database -->
-<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
- 
-<script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-        apiKey: "",
-        authDomain: "",
-        databaseURL: "",
-        projectId: "",
-        storageBucket: "",
-        messagingSenderId: "",
-        appId: ""
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-</script>
+		s.onload = function () { tmWidgetInit(config) };
+		var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
+	</script>0
 
-	
+	<!---------SMTP.JS------------>
+
+	<script src=https://smtpjs.com/v3/smtp.js></script>
+	<script>
+		function sendEmail() {
+			Email.send({
+				Host: "smtp.@gmail.com",
+				Username: "username",
+				Password: "password",
+				To: "officiel.lionel26@gmail.com",
+				From: document.getElementById("email").value,
+				Subject: "New Contact From Enquiry",
+				Body: "Nom et prénom" + document.getElementById("nom et prénom").value,
+				Body: "email" + document.getElementById("email").value,
+				Body: "phone" + document.getElementById("phone").value,
+				Body: "message" + document.getElementById("message").value,
+			}).then(
+				message => alert("Message envoyé avec succès")
+			);
+		}
+	</script>
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+
+	<!-- include firebase database -->
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+
+	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "",
+			authDomain: "",
+			databaseURL: "",
+			projectId: "",
+			storageBucket: "",
+			messagingSenderId: "",
+			appId: ""
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+	</script>
+
+
 </head>
 
 <body>
-    <!-- =============== Preloader =============== -->
-    <div id="preloader">
-        <div id="loading">
-		<img width="256" height="32" src="assets/img/loading-cylon-red.svg">	
-        </div>
-    </div>
-    <!-- =============== nav =============== -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo" style=" width:17vh; border-radius:10px; margin-top:5px; box-shadow:inset 2px 2px 2px 0px rgb(215, 150, 11),
+
+	<!-- =============== nav =============== -->
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="assets/img/LMS Logo.png" alt="Logo" style=" width:12vh; border-radius:10px; box-shadow:inset 2px 2px 2px 0px rgb(215, 150, 11),
 						7px 7px 20px 0px rgba(235, 227, 6, 0.997),
 						4px 4px 5px 0px rgb(17, 76, 164);
 					   -webkit-transform: rotateX(0deg);
 					   -moz-transform: rotateX(0deg);
-					   transform: rotateX(0deg);"/>
-                    </a>
-                </div>
+					   transform: rotateX(0deg);" />
+					</a>
+				</div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
+				<!-- Collect the nav links, forms, and other content for toggling -->
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
 						<li>
-                            <a class="page-scroll" href="#home">Accueil</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#about">A Propos</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#Services">Services</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#Gallery">Galerie</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#blog">Blog</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- =============== navbar-collapse =============== -->
+							<a class="page-scroll" href="#home">Accueil</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#about">A Propos</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#Services">Services</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#Gallery">Galerie</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#blog">Blog</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<!-- =============== navbar-collapse =============== -->
 
-            </div>
-        </div>
-        <!-- =============== container-fluid =============== -->
-    </nav>
-    <!-- =============== header =============== -->
-    <header id="home" class="header">
+			</div>
+		</div>
+		<!-- =============== container-fluid =============== -->
+	</nav>
+	<!-- =============== header =============== -->
+	<header id="home" class="header">
 		<!-- =============== container =============== -->
-        <div class="container">
-            <div class="header-content row">
-				
+		<div class="container">
+			<div class="header-content row">
+
 
 				<div id="owl-demo" class="owl-carousel header1">
-				  <div>
-				  <div class="col-xs-12 col-sm-6 col-md-6 header-text">
-                    <h2 class="wow bounceIn animated" data-wow-delay=".40s">DEVELOPPEZ <span>VOTRE PROJET</h2>
-                    <h3 class="wow bounceIn animated" data-wow-delay=".50s"> POUR VOTRE APPLICATION WEB</h3>
-                    <p class="wow bounceIn animated" data-wow-delay=".60s">Bienvenue sur mon site web, celui-ci vous permettra de développer vos solutions numériques & digitales selon vos attentes.</p>
-                    <p>
-                        <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><a href="web.html"><button class="custom-btn btn-14">Cliquez Ici!</a></button>
-                        </div>
-                    </p>
-					</div>               
+					<div>
+						<div class="col-xs-12 col-sm-6 col-md-6 header-text">
+							<h2 class="wow bounceIn animated" data-wow-delay=".40s">DEVELOPPEZ <span>VOTRE PROJET</h2>
+							<h3 class="wow bounceIn animated" data-wow-delay=".50s"> POUR VOTRE APPLICATION WEB</h3>
+							<p class="wow bounceIn animated" data-wow-delay=".60s">Bienvenue sur mon site web, celui-ci
+								vous permettra de développer vos solutions numériques & digitales selon vos attentes.
+							</p>
+							<p>
+							<div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><a
+									href="web.html"><button class="custom-btn btn-14">Cliquez Ici!</a></button>
+							</div>
+							</p>
+						</div>
+					</div>
+					<div>
+						<div class="col-xs-12 col-sm-6 col-md-6 header-text">
+							<h2 class="wow bounceIn animated" data-wow-delay=".40s">DEVELOPPEZ <span>VOTRE PROJET</h2>
+							<h3 class="wow bounceIn animated" data-wow-delay=".50s"> POUR VOTRE APPLICATION MOBILE </h3>
+							<p class="wow bounceIn animated" data-wow-delay=".60s">Bienvenue sur mon site web, celui-ci
+								vous permettra de développer vos solutions numériques & digitales selon vos attentes.
+							</p>
+							<p>
+							<div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><a
+									href="mobile.html"><button class="custom-btn btn-14">Cliquez Ici!</a></button>
+							</div>
+							</p>
+						</div>
+					</div>
 				</div>
-				 <div>
-				  <div class="col-xs-12 col-sm-6 col-md-6 header-text">
-					<h2 class="wow bounceIn animated" data-wow-delay=".40s">DEVELOPPEZ <span>VOTRE PROJET</h2>
-                    <h3 class="wow bounceIn animated" data-wow-delay=".50s"> POUR VOTRE APPLICATION MOBILE </h3>
-                    <p class="wow bounceIn animated" data-wow-delay=".60s">Bienvenue sur mon site web, celui-ci vous permettra de développer vos solutions numériques & digitales selon vos attentes.</p>
-                    <p>
-                        <div class="btn btn-primary btn-lg btn-ornge wow bounceIn animated" data-wow-delay="1s"><a href="mobile.html"><button class="custom-btn btn-14">Cliquez Ici!</a></button>
-                        </div>
-                    </p>
-					</div>               
-				</div>
-				</div>				 
-				</div>
+			</div>
 
 
-                
-        </div>
+
+		</div>
 		<!-- =============== container end =============== -->
-    </header>
-    <!-- =============== A propos =============== -->
-    <section id="about" class="">
+	</header>
+	<!-- =============== A propos =============== -->
+	<section id="about" class="">
 		<!-- =============== container =============== -->
-        <div class="container">            
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 wow fadeInDown animated" data-wow-delay=".5s">
-                   <h2>A propos de moi</h2>
-				   <p>Je suis un UI & UX Designer, spécialisé en front end
-					Ma plus grande priorité est la satisfaction du client, de rapidement fournir des fonctionnalités et ce, de manière cohérente avec une grande valeur ajoutée selon le marché en constante évolution.. </p>
-				   <p>Je peux être spécialisé dans un domaine (le front end) et être plus ou moins polyvalent selon l'étendue et les sujets sur lesquels je travaille.</p>
-				   <a href="assets/img/Lionel CV.pdf" target=_blank><button class="custom-btn btn-12"><span class="clic">Cliquez ici!</span><span>Télécharger  mon CV</span></a></button>
-				   <a href="assets/img/Lionel LM.pdf" target=_blank><button class="custom-btn btn-13"><span class="clic">Cliquez ici!</span><span>Ma Lettre de Motivation</span></a></button>
-                  </div>
-                  <div class="col-xs-12 col-sm-12 col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
-                     <img src="assets/img/about-img.jpg" style="box-shadow:inset 2px 2px 2px 0px rgb(215, 150, 11),
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 wow fadeInDown animated" data-wow-delay=".5s">
+					<h2>A propos de moi</h2>
+					<p>Je suis un UI & UX Designer, spécialisé en front end.
+						Ma plus grande priorité est la satisfaction du client, de rapidement fournir des fonctionnalités
+						et ce, de manière cohérente avec une grande valeur ajoutée selon le marché en constante
+						évolution.. </p>
+					<p>Je peux être spécialisé dans un domaine <strong>(le front end, mais n'exclu pas que je fasse du
+							back end)</strong> et être plus ou moins polyvalent selon
+						l'étendue et les sujets sur lesquels je travaille.</p>
+					<a href="assets/img/Lionel CV.png" target=_blank><button class="custom-btn btn-12"><span
+								class="clic">Cliquez ici!</span><span>Télécharger mon CV</span></a></button>
+					<a href="assets/img/Lionel LM.pdf" target=_blank><button class="custom-btn btn-13"><span
+								class="clic">Cliquez ici!</span><span>Ma Lettre de Motivation</span></a></button>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
+					<img src="assets/img/about-img.jpg" style="box-shadow:inset 2px 2px 2px 0px rgb(215, 150, 11),
 					 7px 7px 20px 0px rgba(3, 62, 111, 0.997),
 					 4px 4px 5px 0px rgb(188, 96, 4);
 					-webkit-transform: rotateX(0deg);
 					-moz-transform: rotateX(0deg);
-					transform: rotateX(0deg); border-radius:20px; "/>               
-                  </div>     
-            </div>
-        </div>   
-		<!-- =============== container end =============== -->		
-    </section>
+					transform: rotateX(0deg); border-radius:20px; " />
+				</div>
+			</div>
+		</div>
+		<!-- =============== container end =============== -->
+	</section>
 	<section id="team" class="">
 		<!-- =============== container =============== -->
-        <div class="container">            
-            <div class="row">
+		<div class="container">
+			<div class="row">
 				<div class="title">
-				<h2>Certifications</h2>
-				<p>Voici quelques-unes de mes Certifications.</p>
+					<h2>Certifications</h2>
+					<p>Voici quelques-unes de mes Certifications.</p>
 				</div>
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".1s">
-                   <div class="timg"><img src="assets/img/Lionel JS.png"/></div>
-				    <div class="t-box">
-				   <h3>Java Script</h3>
-				   <span>Back & Front end </span>
-				   </div>
-                  </div>
-				  <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay=".2s">
-                    <div class="timg"><img src="assets/img/Lionel React.png"/></div>
-				   <div class="t-box">
-				   <h3>React Js</h3>
-				   <span>Front end</span>
-				   </div>				   
-                  </div>
-				  <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".3s">
-                    <div class="timg"><img src="assets/img/IMG-20221217-WA0050.jpg"/></div>
-				   <div class="t-box">
-				   <h3>CERTIFICAT SIMPLON</h3>
-				   <span>Développeur web/mobile</span>
-				   </div>
-                  </div> 
-				  <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay=".4s">
-                    <div class="timg"><img src="assets/img/IMG-20221217-WA0051.jpg"/></div>
-				    <div class="t-box">
-				   <h3>CERTIFICAT Ecole 241</h3>
-				   <span>Développeur web/mobile</span>
-				   </div>
-                  </div>                 
-            </div>
-        </div>   
-		<!-- =============== container end =============== -->		
-    </section>	
+				<div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".1s">
+					<div class="timg"><img src="assets/img/Lionel JS.png" /></div>
+					<div class="t-box">
+						<h3>Java Script</h3>
+						<span>Back & Front end </span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay=".2s">
+					<div class="timg"><img src="assets/img/Lionel React.png" /></div>
+					<div class="t-box">
+						<h3>React Js</h3>
+						<span>Front end</span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 wow fadeInDown animated" data-wow-delay=".3s">
+					<div class="timg"><img src="assets/img/IMG-20221217-WA0050.jpg" /></div>
+					<div class="t-box">
+						<h3>CERTIFICAT SIMPLON</h3>
+						<span>Développeur web/mobile</span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay=".4s">
+					<div class="timg"><img src="assets/img/IMG-20221217-WA0051.jpg" /></div>
+					<div class="t-box">
+						<h3>CERTIFICAT Ecole 241</h3>
+						<span>Développeur web/mobile</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =============== container end =============== -->
+	</section>
 	<!-- =============== Services =============== -->
-    <section id="Services" class="">
+	<section id="Services" class="">
 		<!-- =============== container =============== -->
-        <div class="container">            
-            <div class="row">
-			 <div class="col-xs-12 col-sm-12 col-md-6 wow fadeInLeft animated" data-wow-delay=".5s">
-                     <img src="assets/img/services-img - Copie.jpg" class="img-left" style=" border-radius: 10px;
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 wow fadeInLeft animated" data-wow-delay=".5s">
+					<img src="assets/img/services-img - Copie.jpg" class="img-left" style=" border-radius: 10px;
 					 box-shadow:inset 2px 2px 2px 0px rgb(215, 150, 11),
 					 7px 7px 20px 0px rgba(208, 9, 9, 0.997),
 					 4px 4px 5px 0px rgb(81, 130, 202);
 					-webkit-transform: rotateX(0deg);
 					-moz-transform: rotateX(0deg);
-					transform: rotateX(0deg);"/>               
-                  </div>     
-                <div class="col-xs-12 col-sm-12 col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
-                   <h2>Services</h2>
-				   <p>Je suis toujours prêt à donner le meilleur de mon temps et de mes compétences pour fournir à ma clientèle des services de qualité. </p>
-				   <p>En apportants une valeur ajoutée par l'entremise de mes services telsques: <br> Du maquettage <br> Des interfaces web statiques & dynamiques <br> Des solutions des contenus web E-Commerce <br> Développement des composants d'accès aux données <br> Back end <br> Elaborer et mettre en oeuvre des composants.</p>
-                  </div>
-                 
-            </div>
-        </div>   
-		<!-- =============== container end =============== -->		
-    </section>	
-	<!-- =============== for box =============== -->		
-	<section class="for-box">
-	 <div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownLeft animated" data-wow-delay=".1s">
-				<div class="for-box-crecl">
-					<i class="fa fa-home"></i>
+					transform: rotateX(0deg);" />
 				</div>
-				<div class="clr1">				
-				<h2>
-					SITE<br/>WEB
-				</h2>
+				<div class="col-xs-12 col-sm-12 col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
+					<h2>Services</h2>
+					<p>Je suis toujours prêt à donner le meilleur de mon temps et de mes compétences pour fournir à ma
+						clientèle des services de qualité. </p>
+					<p>En apportants une valeur ajoutée par l'entremise de mes services telsques: <br> Du maquettage
+						<br> Des interfaces web statiques & dynamiques <br> Des solutions des contenus web E-Commerce
+						<br> Développement des composants d'accès aux données <br> Back end <br> Elaborer et mettre en
+						oeuvre des composants.
+					</p>
 				</div>
-				<div class="wbox">
-					<strong>Administration </strong>
-					<p>Application web de profilage et gestion du personnel.</p>
-					<a href="#" class="clr1-a">+</a>
-				</div>
-				
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownLeft animated" data-wow-delay=".2s">
-				<div class="for-box-crecl">
-					<i class="fa fa-code"></i>
-				</div>
-				<div class="clr2">				
-				<h2>
-					DEVELOPPEMENT<br/>WEB
-				</h2>
-				</div>
-				<div class="wbox">
-					<strong>Inscriptions </strong>
-					<p>Application d'inscription & de gestions des élèves.</p> 
-					<a href="#" class="clr2-a">+</a>
-				</div>
-				
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownRight animated" data-wow-delay=".3s">
-				<div class="for-box-crecl">
-					<i class="fa fa-rocket"></i>
-				</div>
-				<div class="clr3">				
-				<h2>
-					PRINT<br/>DESING
-				</h2>	
-				</div>
-				<div class="wbox">
-					<strong>interfaces </strong>
-					<p>interface utilisateur UI, UX design & back end.</p> 
-					<a href="#" class="clr3-a">+</a>
-				</div>
-			
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownRight animated" data-wow-delay=".4s">
-				<div class="for-box-crecl">
-					<i class="fa fa-wifi"></i>
-				</div>
-				<div class="clr4">				
-				<h2>
-					MARKITING<br/> EN LIGNE
-				</h2>
-				</div>
-				<div class="wbox">
-					<strong>e-commerce </strong>
-					<p>Application de vente en ligne & et de livraison.</p> 
-					<a href="#" class="clr4-a">+</a>
-				</div>
-				
+
 			</div>
 		</div>
-	 </div>
+		<!-- =============== container end =============== -->
+	</section>
+	<!-- =============== for box =============== -->
+	<section class="for-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownLeft animated" data-wow-delay=".1s">
+					<div class="for-box-crecl">
+						<i class="fa fa-home"></i>
+					</div>
+					<div class="clr1">
+						<h2>
+							SITE<br />WEB
+						</h2>
+					</div>
+					<div class="wbox">
+						<strong>Administration </strong>
+						<p>Application web de profilage et gestion du personnel.</p>
+						<a href="#" class="clr1-a">+</a>
+					</div>
+
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownLeft animated" data-wow-delay=".2s">
+					<div class="for-box-crecl">
+						<i class="fa fa-code"></i>
+					</div>
+					<div class="clr2">
+						<h2>
+							DEVELOPPEMENT<br />WEB
+						</h2>
+					</div>
+					<div class="wbox">
+						<strong>Inscriptions </strong>
+						<p>Application d'inscription & de gestions des élèves.</p>
+						<a href="#" class="clr2-a">+</a>
+					</div>
+
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownRight animated" data-wow-delay=".3s">
+					<div class="for-box-crecl">
+						<i class="fa fa-rocket"></i>
+					</div>
+					<div class="clr3">
+						<h2>
+							PRINT<br />DESING
+						</h2>
+					</div>
+					<div class="wbox">
+						<strong>interfaces </strong>
+						<p>interface utilisateur UI, UX design & back end.</p>
+						<a href="#" class="clr3-a">+</a>
+					</div>
+
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 wow rotateInDownRight animated" data-wow-delay=".4s">
+					<div class="for-box-crecl">
+						<i class="fa fa-wifi"></i>
+					</div>
+					<div class="clr4">
+						<h2>
+							MARKITING<br /> EN LIGNE
+						</h2>
+					</div>
+					<div class="wbox">
+						<strong>e-commerce </strong>
+						<p>Application de vente en ligne & et de livraison.</p>
+						<a href="#" class="clr4-a">+</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- =============== Counter =============== -->
-    <section class="counter">
+	<section class="counter">
 		<!-- =============== container =============== -->
-        <div class="container">            
-            <div class="row">
-			<div class="title">
-				<h2>Je suis génial, vérifiez quelques faits intéressants</h2>				
+		<div class="container">
+			<div class="row">
+				<div class="title">
+					<h2>Je suis génial, vérifiez quelques faits intéressants</h2>
 				</div>
-			 <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".1s">
-                            <i class="fa fa-clock-o size"></i>
-							<h2>940</h2>
-							<span>Heures de Travail</span>
-                  </div>     
-               <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".2s">
-                            <i class="fa fa-coffee size"></i>
-							<h2>88</h2>
-							<span>Tasses de Café</span>
-                  </div>  
-				   <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".3s">
-                            <i class="fa fa-trophy size"></i>
-							<h2>11</h2>
-							<span>Prix remportés</span>
-                  </div>  
-				   <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".4s">
-                            <i class="fa fa-code size"></i>
-							<h2>55566</h2>
-							<span>Lignes de Code</span>
-                  </div>  
-				   <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".5s">
-                            <i class="fa fa-globe size"></i>
-							<h2>18</h2>
-							<span>Clients dans le monde entier</span>
-                  </div>  
-				   <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".6s">
-                            <i class="fa fa-rocket size"></i>
-							<h2>9</h2>
-							<span>Projets délivrés</span>
-                  </div>  
-            </div>
-        </div>   
-		<!-- =============== container end =============== -->		
-    </section>	
-    
-<!-- =============== Gallery =============== -->
-    <section id="Gallery" class="wow flipInX animated" data-wow-delay=".5s">
-	<div class="title">
-				<h2>Galerie</h2>				
-				<p>Je suis génial, vérifiez quelques faits intéressants</p>
+				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".1s">
+					<i class="fa fa-clock-o size"></i>
+					<h2>940</h2>
+					<span>Heures de Travail</span>
 				</div>
-			
-	<div class="big-demo go-wide" data-js-module="filtering-demo">
-	<div class="container">            
-            <div class="row">
-  <div class="filter-button-group button-group js-radio-button-group">
-    <button class="button is-checked" data-filter="*">tout montrer</button>
-    <button class="button" data-filter=".webdesign">Web design</button>
-    <button class="button" data-filter=".ecommerce">E-commerce</button>  
-	 <button class="button" data-filter=".cms">Cms</button>  
-	<button class="button" data-filter=".logo">Logo</button>  
-  </div>
-</div>
-</div>
-
-
-  <div class="grid baguetteBoxThree gallery">
-      <div class="element-item transition webdesign " data-category="post-transition">
-	  <a href="assets/img/gallery/hotel.png">	 
-	  <img src="assets/img/gallery/hotel.png"/>      
-		<div class="hover-img"> 
-		<h2>Website Design</h2>
-		<i class="fa fa-camera camera"></i>
+				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".2s">
+					<i class="fa fa-coffee size"></i>
+					<h2>88</h2>
+					<span>Tasses de Café</span>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".3s">
+					<i class="fa fa-trophy size"></i>
+					<h2>11</h2>
+					<span>Prix remportés</span>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".4s">
+					<i class="fa fa-code size"></i>
+					<h2>55566</h2>
+					<span>Lignes de Code</span>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".5s">
+					<i class="fa fa-globe size"></i>
+					<h2>18</h2>
+					<span>Clients dans le monde entier</span>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".6s">
+					<i class="fa fa-rocket size"></i>
+					<h2>9</h2>
+					<span>Projets délivrés</span>
+				</div>
+			</div>
 		</div>
-	  </a>
-      </div>      
-      <div class="element-item post-transition ecommerce " data-category="post-transition">
-	  <a href="assets/img/gallery/folio-1 - Copie.jpg">	 
-        <img src="assets/img/gallery/folio-1 - Copie.jpg"/>    
-		<div class="hover-img"> 
-		<h2>E-commerce</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>		
-	  </a>
-      </div>
-      <div class="element-item post-transition webdesign " data-category="post-transition">
-	  <a href="assets/img/gallery/940-site.jpg">	 
-		<img src="assets/img/gallery/940-site.jpg"/>       
-		<div class="hover-img"> 
-		<h2>Website Design</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>		
-		</a>
-      </div>
-	 <div class="element-item transition ecommerce " data-category="post-transition">
-	   <a href="assets/img/gallery/Lionel prototype.png">	 
-	    <img src="assets/img/gallery/Lionel prototype.png"/>       
-		<div class="hover-img"> 
-		<h2>E-commerce</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>		
-      </div>      
-      <div class="element-item post-transition logo " data-category="post-transition">
-         <a href="assets/img/gallery/Screenshot_20220421-225548_Lite.jpg">	 
-	    <img src="assets/img/gallery/Screenshot_20220421-225548_Lite.jpg"/>       
-		<div class="hover-img"> 
-		<h2>Logo</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-      <div class="element-item post-transition cms " data-category="post-transition">
-		 <a href="assets/img/gallery/Capture d’écran (37).png">	 
-	    <img src="assets/img/gallery/Capture d’écran (37).png"/>       
-		<div class="hover-img"> 
-		<h2>CMS</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-	  <div class="element-item post-transition logo " data-category="post-transition">
-         <a href="assets/img/gallery/Cachet ONG.png">	 
-	    <img src="assets/img/gallery/Cachet ONG.png"/>       
-		<div class="hover-img"> 
-		<h2>Logo</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-	  <div class="element-item transition cms " data-category="post-transition">
-	   <a href="assets/img/gallery/Capture d’écran (47).png">	 
-	    <img src="assets/img/gallery/Capture d’écran (47).png"/>       
-		<div class="hover-img"> 
-		<h2>CMS</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>      
-      <div class="element-item post-transition ecommerce " data-category="post-transition">
-         <a href="assets/img/gallery/maquette fish.jpg">	 
-	    <img src="assets/img/gallery/maquette fish.jpg"/>       
-		<div class="hover-img"> 
-		<h2>E-commerce</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-      <div class="element-item post-transition webdesign " data-category="post-transition">
-		 <a href="assets/img/gallery/kids.png">	 
-	    <img src="assets/img/gallery/kids.png"/>       
-		<div class="hover-img"> 
-		<h2>Web Design</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>          
-      </div>
-	  <div class="element-item post-transition logo " data-category="post-transition">
-         <a href="assets/img/gallery/brunelle.png">	 
-	    <img src="assets/img/gallery/brunelle.png"/>       
-		<div class="hover-img"> 
-		<h2>Logo</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>
-	  <div class="element-item transition cms " data-category="post-transition">
-	   <a href="assets/img/gallery/ecole241.jpg">	 
-	    <img src="assets/img/gallery/ecole241.jpg"/>       
-		<div class="hover-img"> 
-		<h2>CMS</h2>
-		<i class="fa fa-camera camera"></i>
-		</div>	
-		</a>
-      </div>      
-  </div>
-</div>
-</section>
+		<!-- =============== container end =============== -->
+	</section>
+
+	<!-- =============== Gallery =============== -->
+	<section id="Gallery" class="wow flipInX animated" data-wow-delay=".5s">
+		<div class="title">
+			<h2>Galerie</h2>
+			<p>Je suis génial, vérifiez quelques faits intéressants</p>
+		</div>
+
+		<div class="big-demo go-wide" data-js-module="filtering-demo">
+			<div class="container">
+				<div class="row">
+					<div class="filter-button-group button-group js-radio-button-group">
+						<button class="button is-checked" data-filter="*">tout montrer</button>
+						<button class="button" data-filter=".webdesign">Web design</button>
+						<button class="button" data-filter=".ecommerce">E-commerce</button>
+						<button class="button" data-filter=".cms">Cms</button>
+						<button class="button" data-filter=".logo">Logo</button>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="grid baguetteBoxThree gallery">
+				<div class="element-item transition webdesign " data-category="post-transition">
+					<a href="assets/img/gallery/hotel.png">
+						<img src="assets/img/gallery/hotel.png" />
+						<div class="hover-img">
+							<h2>Website Design</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item post-transition ecommerce " data-category="post-transition">
+					<a href="assets/img/gallery/LMS.png">
+						<img src="assets/img/gallery/LMS.png" />
+						<div class="hover-img">
+							<h2>E-commerce</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item post-transition webdesign " data-category="post-transition">
+					<a href="assets/img/gallery/940-site.jpg">
+						<img src="assets/img/gallery/940-site.jpg" />
+						<div class="hover-img">
+							<h2>Website Design</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item transition ecommerce " data-category="post-transition">
+					<a href="assets/img/gallery/Lionel prototype.png">
+
+						<img src="assets/img/gallery/Lionel prototype.png" />
+
+						<div class="hover-img">
+							<h2>E-commerce</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item post-transition logo " data-category="post-transition">
+					<a href="assets/img/gallery/wordpresss.jpg">
+						<img src="assets/img/gallery/wordpresss.jpg" />
+						<div class="hover-img">
+							<h2>Theme Wordpress</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item post-transition cms " data-category="post-transition">
+					<a href="assets/img/gallery/Capture d’écran (37).png">
+						<img src="assets/img/gallery/Capture d’écran (37).png" />
+						<div class="hover-img">
+							<h2>CMS</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item post-transition logo " data-category="post-transition">
+					<a href="assets/img/gallery/Capture d’écran 2023-03-27 212530.png">
+						<img src="assets/img/gallery/Capture d’écran 2023-03-27 212530.png" />
+						<div class="hover-img">
+							<h2>E-Commerce</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item transition cms " data-category="post-transition">
+					<a href="assets/img/gallery/Capture d’écran (47).png">
+						<img src="assets/img/gallery/Capture d’écran (47).png" />
+						<div class="hover-img">
+							<h2>CMS</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item post-transition ecommerce " data-category="post-transition">
+					<a href="assets/img/gallery/maquette fish.jpg">
+						<img src="assets/img/gallery/maquette fish.jpg" />
+						<div class="hover-img">
+							<h2>E-commerce</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item post-transition webdesign " data-category="post-transition">
+					<a href="assets/img/gallery/kids.png">
+						<img src="assets/img/gallery/kids.png" />
+						<div class="hover-img">
+							<h2>Web Design</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item post-transition logo " data-category="post-transition">
+					<a href="assets/img/gallery/Capture .png">
+						<img src="assets/img/gallery/Capture .png" />
+						<div class="hover-img">
+							<h2>E-Commerce</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+				<div class="element-item transition cms " data-category="post-transition">
+					<a href="assets/img/gallery/ecole241.jpg">
+						<img src="assets/img/gallery/ecole241.jpg" />
+						<div class="hover-img">
+							<h2>Formation</h2>
+							<i class="fa fa-camera camera"></i>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<section id="blog" class="">
 		<!-- =============== container =============== -->
-        <div class="container">            
-            <div class="row">
-				<div class="title">
-				<h2>Mon Blog</h2>
-				<p>Rencontrez quelques-unes de mes personnes  charmantes, passionnées et positives.</p>
-				</div>
-                 <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
-                      <div class="blog-img">
-						<img src="assets/img/promo 1a.jpg"/>
-					  </div>
-					  <div class="row">
-					  <div class="data">27</div>
-					  <div class="month">AVRIL 2022</div>
-					  </div>
-					  <div class="row">
-					  <h3>Ecole 241 de Port-Gentil</h3>
-					  <p>Les Développeurs web. Les Reférents digitaux. Mme la Responsable campus. Mme la Directrice des Ecole 241 du Gabon et Coachs de l'Ecole 241 de POG.</p>
-					  <a href="blog-single.html">PLUS</a>
-					  </div>
-                  </div>        
-				 <div class="col-xs-12 col-sm-4 col-md-4 wow bounceIn animated" data-wow-delay=".4s">
-                      <div class="blog-img">
-						<img src="assets/img/IMG_20220427_102419.jpg"/>
-					  </div>
-					  <div class="row">
-					  <div class="data">27</div>
-					  <div class="month">AVRIL 2022</div>
-					  </div>
-					  <div class="row">
-					  <h3>Les Autorités</h3>
-					  <p>Représentant PNPE. Partenaire. Journaliste. DG & Fondateur Ogooué Labs. Mr le Maire de Port-Gentil. DG Canalbox. DG Simplon Afrique. Directrice de l'Ecole 241. DG de Airtel Gabon. </p>
-					  <a href="blog-single.html">PLUS</a>
-					  </div>
-                  </div>        
-				 <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInDown animated" data-wow-delay=".3s">
-                      <div class="blog-img">
-						<img src="assets/img/_MG_7538.JPG"/>
-					  </div>
-					  <div class="row">
-					  <div class="data">27</div>
-					  <div class="month">AVRIL 2022</div>
-					  </div>
-					  <div class="row">
-					  <h3>Les Talentueux</h3>
-					  <p>Les Développeurs web. Les Reférents digitaux & Mme la Responsable campus. Coachs de l'Ecole 241 de POG.</p>
-					  <a href="blog-single.html">PLUS</a>
-					  </div>
-                  </div>        
-            </div>
-        </div>   
-		<!-- =============== container end =============== -->		
-    </section>	
-	<section id="contact">
-	<!-- =============== container =============== -->
 		<div class="container">
-			    <div class="row">
-                <div class="title">
-				<h2>Contact</h2>
-				<p>Veuillez s'il vous plaît à saisir vos coordonnées et un petit message en rapport aux projets que vous souhaitez réaliser.</p>
+			<div class="row">
+				<div class="title">
+					<h2>Mon Blog</h2>
+					<p>Rencontrez quelques-unes de mes personnes charmantes, passionnées et positives.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+					<div class="blog-img">
+						<img src="assets/img/promo 1a.jpg" />
+					</div>
+					<div class="row">
+						<div class="data">27</div>
+						<div class="month">AVRIL 2022</div>
+					</div>
+					<div class="row">
+						<h3>Ecole 241 de Port-Gentil</h3>
+						<p>Les Développeurs web. Les Reférents digitaux. Mme la Responsable campus. Mme la Directrice
+							des Ecole 241 du Gabon et Coachs de l'Ecole 241 de POG.</p>
+						<a href="blog-single.html">PLUS</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 wow bounceIn animated" data-wow-delay=".4s">
+					<div class="blog-img">
+						<img src="assets/img/IMG_20220427_102419.jpg" />
+					</div>
+					<div class="row">
+						<div class="data">27</div>
+						<div class="month">AVRIL 2022</div>
+					</div>
+					<div class="row">
+						<h3>Les Autorités</h3>
+						<p>Représentant PNPE. Partenaire. Journaliste. DG & Fondateur Ogooué Labs. Mr le Maire de
+							Port-Gentil. DG Canalbox. DG Simplon Afrique. Directrice de l'Ecole 241. DG de Airtel Gabon.
+						</p>
+						<a href="blog-single.html">PLUS</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 wow fadeInDown animated" data-wow-delay=".3s">
+					<div class="blog-img">
+						<img src="assets/img/_MG_7538.JPG" />
+					</div>
+					<div class="row">
+						<div class="data">27</div>
+						<div class="month">AVRIL 2022</div>
+					</div>
+					<div class="row">
+						<h3>Les Talentueux</h3>
+						<p>Les Développeurs web. Les Reférents digitaux & Mme la Responsable campus. Coachs de l'Ecole
+							241 de POG.</p>
+						<a href="blog-single.html">PLUS</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =============== container end =============== -->
+	</section>
+	<section id="contact">
+		<!-- =============== container =============== -->
+		<div class="container">
+			<div class="row">
+				<div class="title">
+					<h2>Contact</h2>
+					<p>Veuillez s'il vous plaît à saisir vos coordonnées et un petit message en rapport aux projets que
+						vous souhaitez réaliser.</p>
 				</div>
 			</div>
 
 			<div class="row">
 
 				<div class="col-xs-12 col-sm-12 col-md-12 wow bounceIn animated" data-wow-delay=".1s">
+					<script type="text/javascript">
+						function MonSubmitForm() {
+							document.monformulaire.submit();
+						}
+					</script>
 
 					<form action="#" method="post">
 						<div class="ajax-hidden">
 							<div class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
 								<label for="c_name" class="sr-only">Nom et Prénom</label>
-								<input type="text" placeholder="Nom et Prénom" name="name" class="form-control" id="name" required="">
+								<input type="text" placeholder="Nom et Prénom" name="name" class="form-control"
+									id="name" required="">
 							</div>
 
-							<div data-wow-delay=".1s" class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
-								<label for="c_email" class="sr-only">Email</label>
-								<input type="email" placeholder="E-mail" name="email" class="form-control" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" placeholder="officiel.lionel26@gmail.com" required="">
+							<div data-wow-delay=".1s"
+								class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
+								<label for="c_email" class="sr-only">E-mail</label>
+								<input type="email" placeholder="E-mail" name="email" class="form-control" id="email"
+									pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$"
+									placeholder="" required="">
 							</div>
 
-							<div data-wow-delay=".2s" class="col-xs-12 col-sm-12 col-md-12 form-group wow fadeInUp animated">
-								<textarea placeholder="Saisissez votre Message ici!" rows="7" name="description" id="description" class="form-control" required=""></textarea>
+							<div data-wow-delay=".2s"
+								class="col-xs-12 col-sm-12 col-md-12 form-group wow fadeInUp animated">
+								<textarea placeholder="Saisissez votre Message ici!" rows="7" name="description"
+									id="description" class="form-control" required=""></textarea>
 							</div>
 
-							<button data-wow-delay=".3s" class="btn btn-sm btn-block wow fadeInUp animated" type="submit">Envoyer le Message</button>
+							<button data-wow-delay=".3s" class="btn btn-sm btn-block wow fadeInUp animated"
+								type="submit">Envoyer le Message</button>
 						</div>
 						<div class="ajax-response"></div>
 					</form>
-
-				</div>              
+				</div>
 			</div>
 		</div><!-- =============== container end =============== -->
 	</section>
-    <!-- Footer -->
-    <footer id="footer">
-	<!-- =============== container =============== -->
-    <div class="container">
-			    <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6">
+	<!-- Footer -->
+	<footer id="footer">
+		<!-- =============== container =============== -->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
 
 					<ul class="social-links">
-						<li><a class="wow fadeInUp animated" href="facebook.com/lionel26n" style="visibility: visible; animation-name: fadeInUp;"><i class="fa fa-facebook"></i></a></li>
-						<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="https://www.linkedin.com/in/lionel-brice-231a03b8/" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;"><i class="fa fa-linkedIn"></i></a></li>
-						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="index.html#" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><i class="fa fa-google-plus"></i></a></li>
-						<li><a data-wow-delay=".4s" class="wow fadeInUp animated" href="index.html#" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"><i class="fa fa-pinterest"></i></a></li>
-						<li><a data-wow-delay=".5s" class="wow fadeInUp animated" href="index.html#" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"><i class="fa fa-envelope"></i></a></li>
+						<li><a class="wow fadeInUp animated" href="facebook.com/lionel26n"
+								style="visibility: visible; animation-name: fadeInUp;"><i
+									class="fa fa-facebook"></i></a></li>
+						<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="index.html#"
+								style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;"><i
+									class="fa fa-twitter"></i></a></li>
+						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="index.html#"
+								style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><i
+									class="fa fa-google-plus"></i></a></li>
+						<li><a data-wow-delay=".4s" class="wow fadeInUp animated" href="index.html#"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"><i
+									class="fa fa-pinterest"></i></a></li>
+						<li><a data-wow-delay=".5s" class="wow fadeInUp animated" href="index.html#"
+								style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"><i
+									class="fa fa-envelope"></i></a></li>
 					</ul>
 
-                    <p class="copyright">
-                        &copy; LioConcept. Crée par <a href="http://lionel-contact.ga">Lionel Moukendou</a>
+					<p class="copyright">
+						&copy; Lionel Multi-Services - 04/2022. Crée par <a href="http://lionel-contact.ga">Lionel
+							Johnson Moukendou</a>
 					</p>
 
 				</div>
-				<div data-wow-delay=".6s" class="col-xs-12 col-sm-6 col-md-6 wow bounceIn  animated" style="visibility: visible; animation-delay: 0.6s; animation-name: bounceIn;">
+				<div data-wow-delay=".6s" class="col-xs-12 col-sm-6 col-md-6 wow bounceIn  animated"
+					style="visibility: visible; animation-delay: 0.6s; animation-name: bounceIn;">
 
-					  <section class="widget widget_text" id="text-15">
-                         <h3 class="widget-title">Port-Gentil, GABON</h3> <div class="textwidget">Château,<br>
-                        <p>Tel: +241-741-298-12<br>
-                        ou: +241-620-073-18<br>
-                        E-mail: <a href="#">officiel.lionel26@gmail.com</a></p>
-                        <a href="https://www.gps-longitude-latitude.net/coordonnees-gps-de-port-gentil">Obtenez la position sur la carte</a> →</div>
-                    </section>
+					<section class="widget widget_text" id="text-15">
+						<h3 class="widget-title">Port-Gentil, GABON</h3>
+						<div class="textwidget">Château,<br>
+							<p>Tel: +241-741-298-12<br>
+								ou: +241-765-853-29<br>
+								E-mail: <a href="#">officiel.lionel26@gmail.com</a></p>
+							<a href="#">Obtenez la position sur la carte</a> →
+						</div>
+					</section>
 
 				</div>
 			</div>
-    </div><!-- =============== container end =============== -->
-	</footer>    
+		</div><!-- =============== container end =============== -->
+	</footer>
 	<!-- =============== jQuery =============== -->
-    <script src="assets/js/jquery.js"></script>
-	 <script src="assets/js/isotope-docs.min.js"></script>
-    <!-- =============== Bootstrap Core JavaScript =============== -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- =============== Plugin JavaScript =============== -->
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/jquery.fittext.js"></script>
-    <script src="assets/js/wow.min.js"></script> 
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/isotope-docs.min.js"></script>
+	<!-- =============== Bootstrap Core JavaScript =============== -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- =============== Plugin JavaScript =============== -->
+	<script src="assets/js/jquery.easing.min.js"></script>
+	<script src="assets/js/jquery.fittext.js"></script>
+	<script src="assets/js/wow.min.js"></script>
 	<!-- =============== owl carousel =============== -->
-    <script src="assets/owl-carousel/owl.carousel.js"></script>  
+	<script src="assets/owl-carousel/owl.carousel.js"></script>
 	<!-- Isotope does NOT require jQuery. But it does make things easier -->
 
-<script src="assets/js/baguetteBox.js" async></script>
-<script src="assets/js/plugins.js" async></script>
- 
-    <!-- =============== Custom Theme JavaScript =============== -->
-    <script src="assets/js/creative.js">	</script> 
-<script src="assets/js/jquery.nicescroll.min.js"></script>
+	<script src="assets/js/baguetteBox.js" async></script>
+	<script src="assets/js/plugins.js" async></script>
 
-<script>
-  $(document).ready(function() {
-  
-	var nice = $("html").niceScroll();  // The document page (body)
-	
-	$("#div1").html($("#div1").html()+' '+nice.version);
-    
-    $("#boxscroll").niceScroll({cursorborder:"",cursorcolor:"#00F",boxzoom:true}); // First scrollable DIV
+	<!-- =============== Custom Theme JavaScript =============== -->
+	<script src="assets/js/creative.js">	</script>
+	<script src="assets/js/jquery.nicescroll.min.js"></script>
 
-    $("#boxscroll2").niceScroll("#contentscroll2",{cursorcolor:"#F00",cursoropacitymax:0.7,boxzoom:true,touchbehavior:true});  // Second scrollable DIV
-    $("#boxframe").niceScroll("#boxscroll3",{cursorcolor:"#0F0",cursoropacitymax:0.7,boxzoom:true,touchbehavior:true});  // This is an IFrame (iPad compatible)
-	
-    $("#boxscroll4").niceScroll("#boxscroll4 .wrapper",{boxzoom:true});  // hw acceleration enabled when using wrapper
-    
-  });
-</script>
-<script>
-window.onload = function() {
-    if(typeof oldIE === 'undefined' && Object.keys)
-        hljs.initHighlighting();
+	<script>
+		$(document).ready(function () {
 
-    baguetteBox.run('.baguetteBoxOne');
-    baguetteBox.run('.baguetteBoxTwo');
-    baguetteBox.run('.baguetteBoxThree', {
-        animation: 'fadeIn'
-    });
-    baguetteBox.run('.baguetteBoxFour', {
-        buttons: false
-    });
-    baguetteBox.run('.baguetteBoxFive', {
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-        }
-    });
-};
-</script>
-<script src="script.js">
-        
-</script>
-<script type="text/javascript"
-src="//translate.google.com/translate_a/elemt.js? cb=googleTranslateElementInit"></script>
-<script type="text/javascript">
-	function googleTranslateElementInit() {
-		new google.transalte.TranslateElement({pageLangue: 'en'}),
-		'google_translate_element';
-	}
-	
-</script>
-<script async src='https://stackwhats.com/pixel/39bf93a04b785e06a1a31406312c75'></script>
+			var nice = $("html").niceScroll();  // The document page (body)
+
+			$("#div1").html($("#div1").html() + ' ' + nice.version);
+
+			$("#boxscroll").niceScroll({ cursorborder: "", cursorcolor: "#00F", boxzoom: true }); // First scrollable DIV
+
+			$("#boxscroll2").niceScroll("#contentscroll2", { cursorcolor: "#F00", cursoropacitymax: 0.7, boxzoom: true, touchbehavior: true });  // Second scrollable DIV
+			$("#boxframe").niceScroll("#boxscroll3", { cursorcolor: "#0F0", cursoropacitymax: 0.7, boxzoom: true, touchbehavior: true });  // This is an IFrame (iPad compatible)
+
+			$("#boxscroll4").niceScroll("#boxscroll4 .wrapper", { boxzoom: true });  // hw acceleration enabled when using wrapper
+
+		});
+	</script>
+	<script>
+		window.onload = function () {
+			if (typeof oldIE === 'undefined' && Object.keys)
+				hljs.initHighlighting();
+
+			baguetteBox.run('.baguetteBoxOne');
+			baguetteBox.run('.baguetteBoxTwo');
+			baguetteBox.run('.baguetteBoxThree', {
+				animation: 'fadeIn'
+			});
+			baguetteBox.run('.baguetteBoxFour', {
+				buttons: false
+			});
+			baguetteBox.run('.baguetteBoxFive', {
+				captions: function (element) {
+					return element.getElementsByTagName('img')[0].alt;
+				}
+			});
+		};
+	</script>
+	<script src="script.js">
+
+	</script>
+	<script type="text/javascript"
+		src="//translate.google.com/translate_a/elemt.js? cb=googleTranslateElementInit"></script>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.transalte.TranslateElement({ pageLangue: 'en' }),
+				'google_translate_element';
+		}
+
+	</script>
+	<!-- <script src="//code.tidio.co/gzuellqhoonulgafizifznwmvmdrbg91.js" async></script> -->
+	<script async src='https://stackwhats.com/pixel/39bf93a04b785e06a1a31406312c75'></script>
 </body>
-</html>
 
+</html>

@@ -12,23 +12,6 @@ a {
     -webkit-transition: all 0.35s ease 0s;
      -moz-transition: all 0.35s ease 0s;
 }
-#loading {
-    height: 200px;
-    left: 50%;
-    margin: -100px 0 0 -100px;
-    position: absolute;
-    top: 50%;
-    width: 200px;
-}
-#preloader {
-    background: #fff none repeat scroll 0 0;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 9999;
-}
 .title {
     text-align: center;
 	padding-bottom: 70px;
@@ -43,7 +26,7 @@ a {
 }
 .header2 {
    background: rgba(0, 0, 0, 0) url("../img/header2.jpg") repeat fixed center bottom / cover  ;
-    color: #fff;
+    color: #ffffff;
     height: 100%;
     overflow: hidden;
     transition: all 0.35s ease 0s;
@@ -56,7 +39,7 @@ a {
     text-align: center;
     width: 100%;
     border-radius: 10px;
-    box-shadow:inset 2px 2px 2px 0px rgb(215, 150, 11),
+    box-shadow:inset 2px 2px 2px 0px rgb(57, 192, 241),
     7px 7px 20px 0px rgba(208, 9, 9, 0.997),
     4px 4px 5px 0px rgb(81, 130, 202);
    -webkit-transform: rotateX(0deg);
@@ -64,7 +47,7 @@ a {
    transform: rotateX(0deg);
 }
 nav {
-    background: rgb(11, 11, 11) none repeat scroll 0 !important;
+    background: rgb(117, 115, 115) none repeat scroll 0 !important;
     border:  none !important;
     border-radius: 0;
     float: left;
@@ -73,7 +56,7 @@ nav {
 .size
 {
 font-size:40px;
-color:#fff;
+color:#ffffff;
 }
 .navbar-nav {
     float: left;
@@ -101,7 +84,7 @@ color:#fff;
 transition: all 0.35s ease 0s;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #230496;
     font-size: 20px;
     padding: 50px 26px 35px;
 }

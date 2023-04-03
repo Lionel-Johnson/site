@@ -44,62 +44,20 @@
 			call: "Me laisser un message",
 			position: "ww-right",
 			size: "ww-normal",
-			text: "Salut! Je suis intéressé par vos offres",
+			text: "Salut! Je suis intéressé(e) par vos services, je reste attente de vos propositions svp!",
 			type: "ww-standard",
 			brand: "lionel-contact.ga",
 			subtitle: "Développeur des applications web / mobile",
-			welcome: "Salut!Quel type d'application aviez-vous besoin?"
+			welcome: "Salut!<br> En quoi puis-je vous aider?"
 		};
 		var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
 		var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
 
 		s.onload = function () { tmWidgetInit(config) };
 		var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
-	</script>0
-
-	<!---------SMTP.JS------------>
-
-	<script src=https://smtpjs.com/v3/smtp.js></script>
-	<script>
-		function sendEmail() {
-			Email.send({
-				Host: "smtp.@gmail.com",
-				Username: "username",
-				Password: "password",
-				To: "officiel.lionel26@gmail.com",
-				From: document.getElementById("email").value,
-				Subject: "New Contact From Enquiry",
-				Body: "Nom et prénom" + document.getElementById("nom et prénom").value,
-				Body: "email" + document.getElementById("email").value,
-				Body: "phone" + document.getElementById("phone").value,
-				Body: "message" + document.getElementById("message").value,
-			}).then(
-				message => alert("Message envoyé avec succès")
-			);
-		}
 	</script>
-
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
-
-	<!-- include firebase database -->
-	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
-
-	<script>
-		// Your web app's Firebase configuration
-		var firebaseConfig = {
-			apiKey: "",
-			authDomain: "",
-			databaseURL: "",
-			projectId: "",
-			storageBucket: "",
-			messagingSenderId: "",
-			appId: ""
-		};
-		// Initialize Firebase
-		firebase.initializeApp(firebaseConfig);
-	</script>
-
 
 </head>
 
@@ -207,7 +165,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-6 wow fadeInDown animated" data-wow-delay=".5s">
-					<h2>A propos de moi</h2>
+					<h2 style="color: blue;">A propos de moi</h2>
 					<p>Je suis un UI & UX Designer, spécialisé en front end.
 						Ma plus grande priorité est la satisfaction du client, de rapidement fournir des fonctionnalités
 						et ce, de manière cohérente avec une grande valeur ajoutée selon le marché en constante
@@ -287,7 +245,7 @@
 					transform: rotateX(0deg);" />
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
-					<h2>Services</h2>
+					<h2 style="color: blue;">Services</h2>
 					<p>Je suis toujours prêt à donner le meilleur de mon temps et de mes compétences pour fournir à ma
 						clientèle des services de qualité. </p>
 					<p>En apportants une valeur ajoutée par l'entremise de mes services telsques: <br> Du maquettage
@@ -311,7 +269,7 @@
 					</div>
 					<div class="clr1">
 						<h2>
-							SITE<br />WEB
+							APPLICATION<br />WEB
 						</h2>
 					</div>
 					<div class="wbox">
@@ -343,12 +301,12 @@
 					</div>
 					<div class="clr3">
 						<h2>
-							PRINT<br />DESING
+							REFONTE<br />CONCEPTION
 						</h2>
 					</div>
 					<div class="wbox">
-						<strong>interfaces </strong>
-						<p>interface utilisateur UI, UX design & back end.</p>
+						<strong>Interfaces </strong>
+						<p>Interface utilisateur UI, UX design & back end.</p>
 						<a href="#" class="clr3-a">+</a>
 					</div>
 
@@ -359,11 +317,11 @@
 					</div>
 					<div class="clr4">
 						<h2>
-							MARKITING<br /> EN LIGNE
+							MARKITING<br /> DIGITALISATION
 						</h2>
 					</div>
 					<div class="wbox">
-						<strong>e-commerce </strong>
+						<strong>E-Commerce </strong>
 						<p>Application de vente en ligne & et de livraison.</p>
 						<a href="#" class="clr4-a">+</a>
 					</div>
@@ -378,16 +336,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="title">
-					<h2>Je suis génial, vérifiez quelques faits intéressants</h2>
+					<h2>Regardez quelques faits intéressants</h2>
 				</div>
 				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".1s">
 					<i class="fa fa-clock-o size"></i>
-					<h2>940</h2>
+					<h2>1054</h2>
 					<span>Heures de Travail</span>
 				</div>
 				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".2s">
 					<i class="fa fa-coffee size"></i>
-					<h2>88</h2>
+					<h2>92</h2>
 					<span>Tasses de Café</span>
 				</div>
 				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".3s">
@@ -397,17 +355,17 @@
 				</div>
 				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".4s">
 					<i class="fa fa-code size"></i>
-					<h2>55566</h2>
+					<h2>65566</h2>
 					<span>Lignes de Code</span>
 				</div>
 				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".5s">
 					<i class="fa fa-globe size"></i>
-					<h2>18</h2>
-					<span>Clients dans le monde entier</span>
+					<h2>22</h2>
+					<span>Clients au Gabon</span>
 				</div>
 				<div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".6s">
 					<i class="fa fa-rocket size"></i>
-					<h2>9</h2>
+					<h2>12</h2>
 					<span>Projets délivrés</span>
 				</div>
 			</div>
@@ -419,14 +377,14 @@
 	<section id="Gallery" class="wow flipInX animated" data-wow-delay=".5s">
 		<div class="title">
 			<h2>Galerie</h2>
-			<h4>Projecter un regard sur mes réaliations</h4>
+			<h4><strong style="color: blue;">Projectez un regard sur mes réaliations</strong> </h4>
 		</div>
 
 		<div class="big-demo go-wide" data-js-module="filtering-demo">
 			<div class="container">
 				<div class="row">
 					<div class="filter-button-group button-group js-radio-button-group">
-						<button class="button is-checked" data-filter="*">tout montrer</button>
+						<button class="button is-checked" data-filter="*">Tout montrer</button>
 						<button class="button" data-filter=".webdesign">Web design</button>
 						<button class="button" data-filter=".ecommerce">E-commerce</button>
 						<button class="button" data-filter=".cms">Cms</button>
@@ -539,10 +497,10 @@
 					</a>
 				</div>
 				<div class="element-item transition cms " data-category="post-transition">
-					<a href="assets/img/gallery/ecole241.jpg">
-						<img src="assets/img/gallery/ecole241.jpg" />
+					<a href="assets/img/gallery/Bureautique.png">
+						<img src="assets/img/gallery/Bureautique.png" />
 						<div class="hover-img">
-							<h2>Formation</h2>
+							<h2>Nous formons en Bureautique</h2>
 							<i class="fa fa-camera camera"></i>
 						</div>
 					</a>
@@ -556,7 +514,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="title">
-					<h2>Mon Blog</h2>
+					<h2 style="color: blue;">Mon Blog</h2>
 					<p>Rencontrez quelques-unes de mes personnes charmantes, passionnées et positives.</p>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
@@ -629,18 +587,47 @@
 						}
 					</script>
 
-					<form action="#" method="post">
+					<form action="https://formspree.io/f/xbjezgpz" method="POST">
 						<div class="ajax-hidden">
 							<div class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
-								<label for="c_name" class="sr-only">Nom et Prénom</label>
-								<input type="text" placeholder="Nom et Prénom" name="name" class="form-control"
+								<label for="c_name" class="sr-only">Names</label>
+								<input type="text" placeholder="Renseignez vos Noms et Prénoms" name="name"
+									class="form-control" id="name" required="">
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
+								<label for="c_name" class="sr-only">Country</label>
+								<input type="text" placeholder="Renseignez votre Pays" name="name" class="form-control"
 									id="name" required="">
 							</div>
-
+							<div class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
+								<label for="c_name" class="sr-only">City</label>
+								<input type="text" placeholder="Renseignez Votre Ville" name="name" class="form-control"
+									id="name" required="">
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
+								<p>Déterminez la date du début de votre projet</p>
+								<label for="c_name" class="sr-only">Application</label>
+								<input type="date" placeholder="Date du début de votre projet" name="date"
+									class="form-control" id="date" required="">
+								<p><strong>Cochez le projet que vous désirez</strong>
+									<input type="checkbox" name="vitrine" id="vitrine">
+									<label for="s=site">Vitrine / Réfonte</label>
+									<input type="checkbox" name="ecommerce" id="Ligne">
+									<label for="ecom">E-Commerce</label>
+									<input type="checkbox" name="logiciel" id="log">
+									<label for="log">Logiciel</label>
+								</p>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
+								<label for="c_name" class="sr-only">Phone</label>
+								<input type="text" placeholder="Renseignez Votre numéro de Téléphone" name="name"
+									class="form-control" id="name" required="">
+							</div>
 							<div data-wow-delay=".1s"
 								class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
-								<label for="c_email" class="sr-only">E-mail</label>
-								<input type="email" placeholder="E-mail" name="email" class="form-control" id="email"
+								<label for="c_email" class="sr-only">Email</label>
+								<input type="email" placeholder="Renseignez votre adresse E-mail" name="email"
+									class="form-control" id="email"
 									pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$"
 									placeholder="" required="">
 							</div>
@@ -652,13 +639,12 @@
 							</div>
 
 							<button data-wow-delay=".3s" class="btn btn-sm btn-block wow fadeInUp animated"
-								type="submit">Envoyer le Message</button>
+								type="submit">Envoyez le Message</button>
 						</div>
 						<div class="ajax-response"></div>
 					</form>
 				</div>
-			</div>
-		</div><!-- =============== container end =============== -->
+			</div><!-- =============== container end =============== -->
 	</section>
 	<!-- Footer -->
 	<footer id="footer">
@@ -764,7 +750,7 @@
 			});
 		};
 	</script>
-	<script src="script.js"></script>	
+	<script src="script.js"></script>
 	<!-- <script src="//code.tidio.co/gzuellqhoonulgafizifznwmvmdrbg91.js" async></script> -->
 	<!-- <script async src='https://stackwhats.com/pixel/39bf93a04b785e06a1a31406312c75'></script> -->
 </body>
